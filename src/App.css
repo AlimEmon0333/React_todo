@@ -1,0 +1,37 @@
+/* gideon roman */
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+/* Kanit */
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Gideon Roman", serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar:hover {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c6fff2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #003431;
+  border-radius: 10px;
+  border: 3px solid #c6fff2;
+  scrollbar-width: thin;
+  scrollbar-color: #003431 #c6fff2;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #002821;
+  cursor: pointer;
+}
